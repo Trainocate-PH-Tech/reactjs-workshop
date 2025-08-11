@@ -91,6 +91,12 @@ npm install \
     react-router-dom
 ```
 
+On Windows:
+
+```bash
+npm install autoprefixer axios bcrypt bootstrap cors dotenv esbuild esbuild-sass-plugin esbuild-envfile-plugin express jsonwebtoken jwt-decode react react-bootstrap react-dom react-router-dom
+```
+
 8. Create a `.env` file to hold environment variables needed in the build process:
 
 ```
