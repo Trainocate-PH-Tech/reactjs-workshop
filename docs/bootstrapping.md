@@ -107,6 +107,23 @@ CURRENT_USER=MY_USER
 
 9. Run and compile the application:
 
+Change `type` in `package.json` to value `module`
+
+Raw command:
+
+```bash
+node build.js --dev --watch
+```
+
+Modify `package.json` to include a script called `"start"`
+
+```js
+// Inside package.json scripts
+"start": "node build.js --dev --watch"
+```
+
+To run:
+
 ```bash
 npm run start
 ```
